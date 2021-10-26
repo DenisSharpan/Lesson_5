@@ -1,0 +1,179 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Skranji:regular,700&display=swap&subset=cyrillic-ext");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: Skranji;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+
+.wrapper {
+}
+.header {
+}
+.main {
+	font-size: 30px;
+	font-style: italic;
+	line-height: 1.2;
+}
+
+.work1 {
+	border: 1px solid #000;
+}
+.span {
+	display: block;
+}
+
+.work2 {
+}
+.text {
+	background: yellow;
+	padding: 15px;
+	display: inline-block;
+	max-width: 400px;
+	max-height: 200px;
+}
+
+.work3 {
+}
+.link {
+	background: green;
+	color: #000;
+	font-weight: 700;
+	margin: 0 0 30px 0;
+	display: inline-block;
+}
+
+.work4 {
+}
+.p {
+	font-size: 14px;
+	background: grey;
+	max-width: 100px;
+	padding: 10px;
+	margin: 15px;
+	display: inline-block;
+}
+
+.work5 {
+}
+.text5 {
+	background: blue;
+	padding: 30px;
+	color: #fff;
+}
+.text55 {
+	background: brown;
+	padding: 30px;
+	margin: -80px 0 0 0;
+}
+
+.work6 {
+}
+.spann {
+	font-size: 38px;
+	background: grey;
+	display: block;
+	max-height: 200px;
+	overflow: auto;
+	margin: 20px;
+}
+
+.work7 {
+}
+.img {
+	max-width: 600px;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.work8 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: green;
+	margin: 50px;
+}
+
+.work9 {
+}
+.text9 {
+	background: grey;
+	opacity: 50%;
+}
+
+.work10 {
+}
+.span10 {
+	border: 5px solid #000;
+	display: inline-block;
+}
+
+.work11 {
+	max-width: 400px;
+	max-height: 400px;
+	background: grey;
+	margin: 50px auto;
+	border-top: 5px solid aqua;
+	border-bottom: 10px dashed yellowgreen;
+	border-right: 15px dotted olivedrab;
+	border-left: 20px double firebrick;
+}
+
+.work12 {
+	text-align: center;
+}
+.link12 {
+	margin: 50px;
+	display: inline-block;
+	font-size: 50px;
+	padding: 20px;
+	box-shadow: 0 0 10px 10px lightcoral;
+	text-shadow: 15px 5px 5px palegreen;
+}
+
+.footer {
+}
